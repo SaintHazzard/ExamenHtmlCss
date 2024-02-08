@@ -1,0 +1,9 @@
+@media (width < 1350px) {
+  .sideBar {
+    width: 5%;
+  }
+  .bx {
+    font-size: 2rem;
+    margin-right: 1rem;
+  }
+}
