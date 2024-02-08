@@ -145,10 +145,6 @@ span {
 .nav-item:hover i {
   color: #ffffff;
 }
-.nav-item .bx {
-  /* margin-right: 2rem; */
-  /* padding-left: 1.7rem; */
-}
 
 .sideBar p {
   color: #007bff;
@@ -174,7 +170,7 @@ h3 {
 }
 
 .text {
-  text-align: center;
+  text-align: start;
 }
 
 .detailContent h3,
@@ -200,8 +196,29 @@ img {
 .detailProduct p {
   display: inline;
   width: 30%;
+  font-size: 1rem;
 }
 
 .detailProduct .agregar {
   width: 60%;
+  height: 40px;
+}
+
+.agregar {
+  border: 0;
+  background-color: #007bff;
+  padding: 0.5rem;
+  text-transform: uppercase;
+  border-radius: 2rem;
+  cursor: pointer;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+}
+
+.agregar:hover {
+  background-color: #2f00ff;
+  color: #ffffff;
+}
+
+a {
+  width: 100%;
 }
