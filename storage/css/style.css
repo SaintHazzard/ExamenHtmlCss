@@ -103,7 +103,8 @@ span {
 
 .detailContent {
   position: relative;
-  flex: 1 1 calc(23% - 25px);
+  flex: 1 1 calc(300px - 25px);
+  min-width: 23%;
   background-color: #ffffff;
   padding: 10px;
   box-sizing: border-box;
@@ -221,4 +222,10 @@ img {
 
 a {
   width: 100%;
+}
+
+.cantCarrito {
+  padding: 0.5rem;
+  border-radius: 5px;
+  outline: 2px solid;
 }

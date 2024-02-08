@@ -22,13 +22,19 @@ img {
 }
 
 .detailContent:nth-child(4) {
-  position: absolute;
-  width: 1169px;
-  top: 100%;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0);
 }
 
 .content {
   padding-bottom: 1rem;
+}
+
+.detailContent {
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+p {
+  white-space: nowrap;
 }
