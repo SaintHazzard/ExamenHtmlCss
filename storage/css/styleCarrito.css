@@ -32,6 +32,8 @@ img {
 .detailContent {
   display: grid;
   justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
   grid-template-columns: repeat(6, 1fr);
 }
 
